@@ -1,4 +1,5 @@
-# Interface for the MMMP-Framework
+# A Python interface to the MMP-Framework
+ https://github.com/bmatthiesen/mixed-monotonic
 ---
 ## Usage:
 
