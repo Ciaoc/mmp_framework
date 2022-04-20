@@ -58,7 +58,7 @@ x = Variable(3, 0, 1)
 #   (e.g. for adding constraints to parts of the function)
 
 numerator   = mult(alpha, x)
-denominator = add(sigma, dot(beta, x))
+denominator = add(sigma, mult(beta, x))
 fraction    = div(numerator, denominator)
 rk          = log2(add(1, fraction))
 obj         = dot(weights, rk)
